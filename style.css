@@ -55,6 +55,11 @@ body {
   flex-direction: column;
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .tab__main {
+    width: 100%;
+  }
+}
 .tab__text {
   font-size: 1.6rem;
   padding: 2rem;
